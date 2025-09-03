@@ -1,8 +1,3 @@
-body {
-	background-color: #475260;
-	color: #e6edf3;
-}
-
 form {
 	display: flex;
 	flex-direction: column;
@@ -20,8 +15,23 @@ ul {
 }
 
 li {
-	border: 4px solid #256990;
-	background-color: #36404e;
-	height: 100px;
+	background-color: #3f4b5a;
 	width: 30%;
+	padding: 10px 15px;
+}
+a {
+	text-decoration: none;
+	color: #adfeff;
+}
+h3 {
+	margin: 0;
+}
+
+li div {
+	display: flex;
+	justify-content: space-between;
+}
+
+body {
+	background-color: red;
 }

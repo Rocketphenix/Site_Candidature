@@ -1,8 +1,5 @@
 <template>
 	<div id="app">
-		<!-- Lien vers la page d'accueil (optionnel) -->
-		<router-link to="/">Accueil</router-link>
-
 		<!-- Affichage des routes -->
 		<router-view />
 	</div>
@@ -15,12 +12,19 @@ export default {
 </script>
 
 <style>
-/* #app {
+#app {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+body {
+	color: #50d7eb;
+	background-color: #1c2533;
+	font-size: 20px;
+}
+h1 {
 	text-align: center;
-	color: #2c3e50;
-	margin-top: 60px;
-} */
+	color: #5692ea;
+	text-decoration: underline;
+}
 </style>

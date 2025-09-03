@@ -1,4 +1,5 @@
 <template>
+	<h1>Formulaire ajout poste</h1>
 	<form v-on:submit.prevent="handleSubmit">
 		<label>
 			Nom du poste:
@@ -216,4 +217,4 @@ export default {
 };
 </script>
 
-<style src="./styles.css"></style>
+<style src="./styles.css" scoped></style>

@@ -1,0 +1,22 @@
+.poste {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+a {
+	position: absolute;
+	text-decoration: none;
+	background-color: #3f4b5a;
+	color: #adfeff;
+	padding: 10px;
+	top: 10px;
+	left: 10px;
+}
+
+@media (max-width: 600px) {
+	a {
+		position: relative;
+	}
+}
