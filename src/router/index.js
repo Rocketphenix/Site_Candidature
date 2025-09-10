@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import AddPostes from "../components/AddPoste/AddPoste.vue";
 import PosteDetail from "../components/DetailPoste/DetailPoste.vue";
 
@@ -8,7 +8,7 @@ const routes = [
 ];
 
 const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHashHistory(),
 	routes,
 });
 
